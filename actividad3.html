@@ -6,82 +6,177 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tp3</title>
     <style>
+        .container {
+            display: flex;
+            justify-content: center;
+
+            gap: 10px
+        }
+
         .producto {
-            height: 200px;
-            width: 400px
+            height: 300px;
+            width: 500px;
             gap: 40px;
             border: 2px solid black;
-            position: flex;
-            
+            position: relative;
             
 
         }
-        
-
-
 
         .img-producto {
+            width: 480px;
+            left: 300px;
 
-            width: 100px;
 
         }
+
+
 
         .img-flotante {
-            position: flex;
-            top: 50%;
-            left: 100px;
+            top: 20%;
+            left: 300px;
 
         }
-       
-     </style>
+
+        .descuento {
+            background-color: rgb(255, 0, 119);
+            width: 80px;
+            height: 90px;
+            position: absolute;
+            left: 20px;
+            top: 0;
+            color: aliceblue;
+        }
+
+        .hasta {
+            font-size: xx-large;
+            justify-content: center;
+
+
+           
+        }
+
+        .porciento {
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+        .numero{
+            font-size: 2em;
+
+        }
+        .porcentaje{
+            justify-content: center;
+            font-size: x-large;
+
+        }
+        .off{
+            justify-content: center;
+            font-size: medium;
+
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
         <div class="producto">
+           
+            
             <div class="izq">
 
+
+                <div class="img-flotante">
+                    <img src="https://img.freepik.com/fotos-premium/electrodomesticos-cocina-gas-tv-cine-frigorifico-aire-acondicionado-microondas_505080-1032.jpg"
+                        class="img-producto">
+                </div>
                 <div>descripcion de el anuncio</div>
-                 <div class="img-flotante">                    
-                    <img src="https://w7.pngwing.com/pngs/1017/473/png-transparent-assorted-brand-of-home-appliance-home-appliance-washing-machines-small-appliance-refrigerator-kitchen-refrigerator-electronics-household-clothes-dryer.png"class="img-producto">
-                 </div>
-               
+
+            </div>
+            <div class="descuento">
+                <div class="hasta">Hasta</div>
+                <div class="porciento">
+                    <div class="numero">30</div>
+                    <div>
+                        <div class="porcentaje">%</div>
+                        <div class="off">off</div>
+                    </div>
+                </div>
 
             </div>
 
-           
+
 
 
         </div>
+
+
+
+
+
+
+
+
+
+
+
         <div class="producto">
             <div class="cen">
 
-                <div>descripcion de el anuncio</div>
+
                 <div class="img-flotante">
-                    <img src="https://w7.pngwing.com/pngs/1017/473/png-transparent-assorted-brand-of-home-appliance-home-appliance-washing-machines-small-appliance-refrigerator-kitchen-refrigerator-electronics-household-clothes-dryer.png"class="img-producto">
+                    <img src="https://lh7-us.googleusercontent.com/VhmqdMpm-Kj9FG8_K2Rcqh3DxjdOIeMRYhhE0XF-ZDfFJOzI7bSEdUGeWvZhWWGX1QLhCFCVTUsGjHWe2td_8xnYpr1GWdotn0pW9KgONDjTFg5muUv_c2kAEmacrnUaIJYL9_fvGFFp3t8Fku3WYcE"
+                        class="img-producto">
 
                 </div>
-               
+                <div>descripcion de el anuncio</div>
+
+
+            </div>
+            <div class="descuento">
+                <div class="hasta">Hasta</div>
+                <div class="porciento">
+                    <div class="numero">40</div>
+                    <div>
+                        <div class="porcentaje">%</div>
+                        <div class="off">off</div>
+                    </div>
+                </div>
 
             </div>
 
-           
+
+
 
 
         </div>
         <div class="producto">
             <div class="der">
 
-                <div>descripcion de el anuncio</div>
                 <div class="img-flotante">
-                    <img src="https://w7.pngwing.com/pngs/1017/473/png-transparent-assorted-brand-of-home-appliance-home-appliance-washing-machines-small-appliance-refrigerator-kitchen-refrigerator-electronics-household-clothes-dryer.png"class="img-producto">
+                    <img src="https://qph.cf2.quoracdn.net/main-qimg-ef602f9d61d2915c973e8dc197b61a93"
+                        class="img-producto">
 
                 </div>
-               
+                <div>descripcion de el anuncio</div>
+
+
+            </div>
+            <div class="descuento">
+                <div class="hasta">Hasta</div>
+                <div class="porciento">
+                    <div class="numero">50</div>
+                    <div>
+                        <div class="porcentaje">%</div>
+                        <div class="off">off</div>
+                    </div>
+                </div>
 
             </div>
 
-           
+
+
 
 
         </div>
